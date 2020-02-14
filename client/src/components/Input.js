@@ -18,6 +18,7 @@ function Input() {
         placeholder='Search for a player'
         value={inputValue}
         onChange={changeHandler}
+        data-testid="input"
       />
       <input onClick={submitHandler} type="submit"/>
     </form>
